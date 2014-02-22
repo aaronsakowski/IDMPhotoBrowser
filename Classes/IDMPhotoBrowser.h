@@ -80,4 +80,8 @@
 // Get IDMPhoto at index
 - (id<IDMPhoto>)photoAtIndex:(NSUInteger)index;
 
+// Change Sender View
+//- (void)setSenderViewForAnimation:(UIView*)senderView;
+- (void)doneButtonPressed:(id)sender;
+
 @end
