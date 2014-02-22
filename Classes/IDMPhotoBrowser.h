@@ -76,5 +76,6 @@
 
 // Change Sender View
 //- (void)setSenderViewForAnimation:(UIView*)senderView;
+- (void)doneButtonPressed:(id)sender;
 
 @end
