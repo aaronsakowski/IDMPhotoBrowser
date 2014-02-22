@@ -262,7 +262,7 @@
         [_photoBrowser performSelector:@selector(toggleControls) withObject:nil afterDelay:0.2];
     }
     else{
-        [_photoBrowser performSelector:@selector(doneButtonPressed:) withObject:self afterDelay:0.2];
+        [_photoBrowser performSelector:@selector(doneButtonPressed:) withObject:self afterDelay:0.1];
     }
     
 }
