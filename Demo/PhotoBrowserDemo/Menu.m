@@ -83,26 +83,26 @@
     
     if(buttonSender.tag == 101)
     {
-        photo = [IDMPhoto photoWithFilePath:[[NSBundle mainBundle] pathForResource:@"photo1l" ofType:@"jpg"]];
+        photo = [IDMPhoto photoWithFilePath:[[NSBundle bundleForClass:[self class]] pathForResource:@"photo1l" ofType:@"jpg"]];
         photo.caption = @"Grotto of the Madonna";
         [photos addObject:photo];
     }
     
-    photo = [IDMPhoto photoWithFilePath:[[NSBundle mainBundle] pathForResource:@"photo3l" ofType:@"jpg"]];
+    photo = [IDMPhoto photoWithFilePath:[[NSBundle bundleForClass:[self class]] pathForResource:@"photo3l" ofType:@"jpg"]];
     photo.caption = @"York Floods";
     [photos addObject:photo];
     
-    photo = [IDMPhoto photoWithFilePath:[[NSBundle mainBundle] pathForResource:@"photo2l" ofType:@"jpg"]];
+    photo = [IDMPhoto photoWithFilePath:[[NSBundle bundleForClass:[self class]] pathForResource:@"photo2l" ofType:@"jpg"]];
     photo.caption = @"The London Eye is a giant Ferris wheel situated on the banks of the River Thames, in London, England.";
     [photos addObject:photo];
     
-    photo = [IDMPhoto photoWithFilePath:[[NSBundle mainBundle] pathForResource:@"photo4l" ofType:@"jpg"]];
+    photo = [IDMPhoto photoWithFilePath:[[NSBundle bundleForClass:[self class]] pathForResource:@"photo4l" ofType:@"jpg"]];
     photo.caption = @"Campervan";
     [photos addObject:photo];
     
     if(buttonSender.tag == 102)
     {
-        photo = [IDMPhoto photoWithFilePath:[[NSBundle mainBundle] pathForResource:@"photo1l" ofType:@"jpg"]];
+        photo = [IDMPhoto photoWithFilePath:[[NSBundle bundleForClass:[self class]] pathForResource:@"photo1l" ofType:@"jpg"]];
         photo.caption = @"Grotto of the Madonna";
         [photos addObject:photo];
     }
@@ -189,7 +189,7 @@
     
     if(indexPath.section == 0) // Local photo
     {
-        photo = [IDMPhoto photoWithFilePath:[[NSBundle mainBundle] pathForResource:@"photo2l" ofType:@"jpg"]];
+        photo = [IDMPhoto photoWithFilePath:[[NSBundle bundleForClass:[self class]] pathForResource:@"photo2l" ofType:@"jpg"]];
         photo.caption = @"The London Eye is a giant Ferris wheel situated on the banks of the River Thames, in London, England.";
         [photos addObject:photo];
 	}
@@ -197,19 +197,19 @@
     {
         if(indexPath.row == 0) // Local Photos
         {
-            photo = [IDMPhoto photoWithFilePath:[[NSBundle mainBundle] pathForResource:@"photo1l" ofType:@"jpg"]];
+            photo = [IDMPhoto photoWithFilePath:[[NSBundle bundleForClass:[self class]] pathForResource:@"photo1l" ofType:@"jpg"]];
             photo.caption = @"Grotto of the Madonna";
 			[photos addObject:photo];
            
-            photo = [IDMPhoto photoWithFilePath:[[NSBundle mainBundle] pathForResource:@"photo2l" ofType:@"jpg"]];
+            photo = [IDMPhoto photoWithFilePath:[[NSBundle bundleForClass:[self class]] pathForResource:@"photo2l" ofType:@"jpg"]];
             photo.caption = @"The London Eye is a giant Ferris wheel situated on the banks of the River Thames, in London, England.";
 			[photos addObject:photo];
             
-            photo = [IDMPhoto photoWithFilePath:[[NSBundle mainBundle] pathForResource:@"photo3l" ofType:@"jpg"]];
+            photo = [IDMPhoto photoWithFilePath:[[NSBundle bundleForClass:[self class]] pathForResource:@"photo3l" ofType:@"jpg"]];
             photo.caption = @"York Floods";
 			[photos addObject:photo];
             
-            photo = [IDMPhoto photoWithFilePath:[[NSBundle mainBundle] pathForResource:@"photo4l" ofType:@"jpg"]];
+            photo = [IDMPhoto photoWithFilePath:[[NSBundle bundleForClass:[self class]] pathForResource:@"photo4l" ofType:@"jpg"]];
             photo.caption = @"Campervan";
 			[photos addObject:photo];
         }
